@@ -1,0 +1,23 @@
+version: 0.2
+        
+phases:
+  install:
+    runtime-versions:
+      java: openjdk8
+    commands:
+      - echo install
+  pre_build:
+    commands:
+      - echo pre-build
+  build:
+    commands:
+      - mvn package
+      - build
+  post_build:
+    commands:
+      - echo post-build
+
+artifacts:
+  files:
+    - target/AboutProject-1.0.war
+ 
