@@ -54,7 +54,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>AboutProject-1.0</finalName>
+		<finalName>AboutProject</finalName>
 	</build>
 	<repositories>
 		<repository>
