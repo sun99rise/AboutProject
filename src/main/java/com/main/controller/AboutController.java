@@ -24,5 +24,11 @@ public class AboutController {
 		String name = "<h1 style='text-align:center'> I am pursuing my B.Tech from VIT Pune in Computer Engineering </h1>";
 		return name;
 	}
+
+@GetMapping("/age")
+	public String education() {
+		String name = "<h1 style='text-align:center'> I am 21 year old </h1>";
+		return name;
+	}
 	
 }
