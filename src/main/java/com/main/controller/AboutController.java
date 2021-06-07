@@ -18,5 +18,11 @@ public class AboutController {
 		String name = "<h1 style='text-align:center'> My village is located in Nanded District of Maharastra State </h1>";
 		return name;
 	}
+
+@GetMapping("/education")
+	public String education() {
+		String name = "<h1 style='text-align:center'> I am pursuing my B.Tech from VIT Pune in Computer Engineering </h1>";
+		return name;
+	}
 	
 }
