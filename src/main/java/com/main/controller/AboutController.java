@@ -26,7 +26,7 @@ public class AboutController {
 	}
 
 @GetMapping("/age")
-	public String education() {
+	public String age() {
 		String name = "<h1 style='text-align:center'> I am 21 year old </h1>";
 		return name;
 	}
